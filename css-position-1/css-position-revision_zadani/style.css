@@ -1,0 +1,98 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header{
+  position: sticky;
+  top: 0px;
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  display: flex;
+  z-index: 3;
+  gap: 1180px;
+  padding: 10px;
+  
+
+}
+.logo{
+  height: 100px;
+  width: 100px;
+  
+  
+}
+.navbar{
+display: flex;
+gap: 20px;
+padding: 5mm;
+
+
+}
+  
+
+.headline-1{
+  display:flex;
+  justify-content: center;
+  position: static;
+  font-size: 40px;
+ 
+
+}
+.top-link-wrapper{
+  position: fixed;
+  left: 95%;
+  top: 90%;
+
+}
+.hero-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: #f2b880;
+  border-radius: 30px;
+  margin-bottom: 2%;
+  color: #752400;
+  padding: 50px;
+}
+.text{
+  display: flex;
+  position: static;
+  justify-content: center;
+  align-items: flex-start;
+  
+}
+.text-wrapper{
+  width: 600px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.hero-img{
+  margin: 2%;
+  position: relative;
+}
+.sipka{
+  width: 50%;
+  height: 50%;
+}
+.img-placeholder{
+  background-color: #e88121;
+  position: absolute;
+  left: -10px;
+  top: -10px;
+  height: 100%;
+  width: 100%;
+
+}
+.obrazek{
+  z-index: 2;
+  position: relative;
+}
+/* Barvy
+Světlá barva pozadí: #f2b880
+Tmavší barvy pozadí za obrázkem: #e88121
+Barva text v oranžovém pozadí: #752400
+*/
